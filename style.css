@@ -84,3 +84,22 @@ footer a {
 footer a:hover {
     color: var(--accent-color) !important;
 }
+
+#contact .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(42, 157, 143, 0.25);
+}
+
+#contact .rounded-4 {
+    border-radius: 1.5rem !important;
+}
+
+#contact .form-floating label {
+    color: #6c757d;
+}
+
+#contact .btn-primary {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
