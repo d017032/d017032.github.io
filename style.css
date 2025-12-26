@@ -12,6 +12,8 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--text-main);
     background-color: #fcfcfc;
+    /* Add this line below to push content down 70 pixels */
+    padding-top: 70px; 
 }
 
 h1, h2, h3 {
