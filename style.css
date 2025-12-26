@@ -1,0 +1,46 @@
+/* Import a professional font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lora:ital,wght@0,400;1,400&display=swap');
+
+:root {
+    --primary-color: #2a9d8f;    /* A nice Teal */
+    --secondary-color: #264653;  /* A dark Navy */
+    --accent-color: #e9c46a;     /* A warm Gold */
+    --text-main: #333333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-main);
+    background-color: #fcfcfc;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif; /* Serif font for headings looks elegant */
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+/* Customizing the Bootstrap Button */
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    padding: 12px 30px;
+    border-radius: 50px; /* Rounded pill shape */
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    background-color: var(--secondary-color) !important;
+}
+
+/* Custom Card Styling */
+.custom-card {
+    border: none !important;
+    border-top: 5px solid var(--accent-color) !important;
+    transition: 0.3s;
+}
+
+.custom-card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
