@@ -149,3 +149,20 @@ footer a:hover {
     background-color: var(--bs-primary);
     color: white;
 }
+
+/* --- Responsive Fixes --- */
+
+/* This targets phones and tablets smaller than 768px */
+@media (max-width: 768px) {
+    .hero-section {
+        /* Disables parallax on mobile to prevent scrolling glitches */
+        background-attachment: scroll !important;
+        /* Optional: adjust height for smaller screens */
+        min-height: 50vh; 
+    }
+
+    .hero-section h1 {
+        /* Makes the main title slightly smaller on phones so it doesn't wrap awkwardly */
+        font-size: 2.5rem;
+    }
+}
