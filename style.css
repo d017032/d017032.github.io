@@ -118,3 +118,30 @@ footer a:hover {
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
+
+  /* Gallery Card Enhancements */
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* This prevents images from looking squished */
+    transition: transform 0.5s ease;
+}
+
+.custom-card {
+    overflow: hidden; /* Keeps the zoomed image inside the card borders */
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover .card-img-top {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.custom-card .btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.custom-card .btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
