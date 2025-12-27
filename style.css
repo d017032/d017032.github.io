@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* This ensures the fixed navbar doesn't cover the section title when you jump to an ID */
+}
 /* Import a professional font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lora:ital,wght@0,400;1,400&display=swap');
 
